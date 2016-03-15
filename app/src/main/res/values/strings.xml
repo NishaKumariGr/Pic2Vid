@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Pic2Vid</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_video">VideoActivity</string>
+
+    <string name="photo_location">Location of photos:</string>
+    <string name="select_location_btn">Select Location</string>
+    <string name="txt_radius">Radius to include around this location (miles)</string>
+    <string name="txt_location_photos">Select by Location</string>
+    <string name="txt_select_location">Select Location</string>
+    <string name="txt_location_radius">Radius around selected location (miles):</string>
+    <string name="txt_duration">Duration of each photo (seconds):</string>
+    <string name="edit_duration">Entr Duration</string>
+    <string name="txt_start">Start</string>
+    <string name="txt_end">End</string>
+    <string name="txt_select_date">SELECT</string>
+    <string name="chkBox_dateRange">Include date range over custom year range</string>
+    <string name="txt_picture_types">Picture types to include:</string>
+    <string name="chkBox_Scenery">Scenery</string>
+    <string name="chkBox_people">People</string>
+    <string name="chkBox_selfie">Selfie</string>
+    <string name="txt_create_video">CREATE NEW VIDEO</string>
+    <string name="txt_seperator">-----------------------------------------------------</string>
+    <string name="btn_Save">SAVE</string>
+    <string name="btn_Edit">EDIT</string>
+    <string name="txt_number_of_images">Image No:</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map_button_save">SAVE</string>
+    <string name="map_button_edit">EDIT</string>
+    <string name="txt_dropPin">Click on map to choose a location</string>
+    <string name="map_button_cancel">CANCEL</string>
+    <string name="watch">Watch</string>
+    <string name="txt_select">Please select start date</string>
+    <string name="txt_end_date">Please select end date</string>
+    <string name="txt_calender_input">Select by Date</string>
+    <string name="txt_OK">OK</string>
+    <string name="txt_Cancel">CANCEL</string>
+    <string name="txt_content_input">Select by content</string>
+    <string name="txt_Header">Date selector</string>
+    <string name="txt_Header_Content">Content Selector</string>
+</resources>

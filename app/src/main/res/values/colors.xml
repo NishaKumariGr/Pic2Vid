@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#09999C</color>
+    <color name="colorPrimaryDark">#09999C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#3063A5</color>
+    <color name="lightBlue">#689a92</color>
+    <color name="cyan">#42C0FB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#FF2500</color>
+    <color name = "purple">#330033</color>
+    <color name="mapTextColor">#000</color>
+    <color name="buttonColor">#0099CC</color>
+    <color name="colorActionBar">#000099</color>
+
+</resources>

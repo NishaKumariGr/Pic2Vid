@@ -1,0 +1,157 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nisha.queryview.CreationFragment">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5sp"
+            android:paddingBottom="20sp"
+            android:onClick="setMapLocation"
+         >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:id="@+id/map_icon_holder"
+                android:src="@drawable/map_icon"
+                android:maxHeight="40dp"
+                android:maxWidth="40dp"/>
+
+            <TextView
+                android:id="@+id/textInputType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_location_photos"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:text="">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flipLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5sp"
+            android:paddingBottom="20sp"
+           >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:id="@+id/calender_icon_holder"
+                android:src="@drawable/calender"
+                android:maxHeight="40dp"
+                android:maxWidth="40dp"/>
+
+            <TextView
+                android:id="@+id/textCalender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_calender_input"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:text="">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5sp"
+            android:paddingBottom="20sp"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:id="@+id/content"
+                android:src="@drawable/content"
+                android:maxHeight="40dp"
+                android:maxWidth="40dp"/>
+
+            <TextView
+                android:id="@+id/textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_content_input"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:text="">
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:text=""
+            android:textSize="16sp"
+            android:gravity="center"
+            android:singleLine="true"
+            >
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_create_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:text="@string/txt_create_video"
+            android:background="@drawable/button"
+            />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/txt_Header"
+        android:textSize="16sp"
+        android:padding="10sp"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:scrollHorizontally="false"
+        >
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20sp"
+
+        >
+        <!--Start button -->
+        <TextView
+            android:id="@+id/txtStart"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/txt_select"
+            android:textSize="16sp"
+            android:paddingLeft="40sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/mapTextColor"
+            android:scrollHorizontally="false"
+            >
+        </TextView>
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:text="@string/txt_start"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_blue"
+            >
+        </Button>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp"
+            >
+
+            <TextView
+                android:id="@+id/txtEnd"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:textSize="16sp"
+                android:textColor="@color/mapTextColor"
+                android:paddingLeft="40sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="@string/txt_end_date"
+                >
+            </TextView>
+        <Button
+            android:id="@+id/btnEnd"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:text="@string/txt_end"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_blue"
+            >
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10sp"
+        >
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_OK"
+            android:textStyle="bold"
+            android:padding="5sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            >
+        </Button>
+
+        <TextView
+            android:layout_width="20sp"
+            android:layout_height="50sp"
+            android:text=""
+            android:textSize="16sp"
+            android:gravity="center"
+            android:singleLine="true"
+            >
+        </TextView>
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_Cancel"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            >
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

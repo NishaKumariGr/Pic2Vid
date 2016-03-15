@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/editPageBtns"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btn_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onWatchVideoClicked"
+            android:background="@drawable/button"
+            android:text="@string/watch">
+        </Button>
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_Save"
+            android:background="@drawable/button"
+            android:onClick="onSaveClicked">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/editName"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textInputType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center">
+        </TextView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="53dp"
+            android:horizontalSpacing="10dp"
+            android:id="@+id/map_icon_holder"
+            android:src="@drawable/edit_icon"
+            android:maxHeight="53dp"
+            android:maxWidth="53dp"
+            android:onClick="onEditTitleClick"/>
+
+    </LinearLayout>
+
+    <GridView android:id="@+id/PhoneImageGrid"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:numColumns="auto_fit"
+              android:verticalSpacing="10dp"
+              android:horizontalSpacing="10dp"
+              android:columnWidth="90dp"
+              android:stretchMode="columnWidth"
+              android:gravity="center"
+              android:layout_above="@id/editPageBtns"
+              android:layout_below="@id/editName">
+
+    </GridView>
+</RelativeLayout>

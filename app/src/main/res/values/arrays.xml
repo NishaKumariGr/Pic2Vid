@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="locations_to_search">
+            <item>Gallery</item>
+            <item>ExternalStorage</item>
+            <item>Facebook</item>
+            <item>Instagram</item>
+        </string-array>
+
+</resources>

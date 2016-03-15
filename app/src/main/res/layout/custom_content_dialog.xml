@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/txt_Header_Content"
+        android:textSize="16sp"
+        android:padding="10sp"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:scrollHorizontally="false"
+        >
+    </TextView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <CheckBox
+            android:id="@+id/checkBox_Scenery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkBox_Scenery"
+            android:textStyle="bold"
+            android:checked="true"
+            />
+        <CheckBox
+            android:id="@+id/checkBox_People"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkBox_people"
+            android:textStyle="bold"
+            android:checked="true"
+            />
+        <CheckBox
+            android:id="@+id/checkBox_Selfie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkBox_selfie"
+            android:textStyle="bold"
+            android:checked="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp"
+        >
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_OK"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            >
+        </Button>
+
+
+        <TextView
+            android:layout_width="20sp"
+            android:layout_height="50sp"
+            android:text=""
+            android:textSize="16sp"
+            android:gravity="center"
+            android:singleLine="true"
+            >
+        </TextView>
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_Cancel"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            >
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
